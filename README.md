@@ -4,6 +4,8 @@ Problema:
 
 Determine de un conjunto de números cuales son primos
 
+* Crear una rama a partir de main, con la siguiente convención: quiz-semana-4/apellido/código
+
 * IN:
 (1, 2, 4, 7, 13, 9, 23)
 
