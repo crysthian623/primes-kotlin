@@ -14,3 +14,11 @@ TODO: Function that checks if a number is prime
 fun isPrime(n: Int): Boolean {
     return true;
 }
+
+
+/*
+TODO: Function that checks if a number is even
+ */
+fun isEven(n: Int): Boolean {
+    return true;
+}
