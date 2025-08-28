@@ -3,16 +3,22 @@ fun main() {
 
     // map applies the isPrime function to each element of the list
     val result = numbers.map { isPrime(it) }
+    val resulteven = numbers.map{isEven(it)}
 
-    println("Numbers: $numbers")
-    println("Are they prime?: $result")
+    println("Lista de numeros: $numbers")
+    println("¿Son primos?: $result")
+    println("¿Son pares?: $resulteven")
 }
 
 /*
 TODO: Function that checks if a number is prime
  */
 fun isPrime(n: Int): Boolean {
-    return true;
+    if (n < 2) return false
+    for (i in 2 until n) {
+        if (n % i == 0) return false
+    }
+    return true
 }
 
 
@@ -20,5 +26,5 @@ fun isPrime(n: Int): Boolean {
 TODO: Function that checks if a number is even
  */
 fun isEven(n: Int): Boolean {
-    return true;
+    return n % 2 == 0
 }
