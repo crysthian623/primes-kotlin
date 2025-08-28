@@ -11,4 +11,6 @@ fun main() {
 /*
 TODO: Function that checks if a number is prime
  */
-fun isPrime(n: Int): Boolean { }
+fun isPrime(n: Int): Boolean {
+    return true;
+}
